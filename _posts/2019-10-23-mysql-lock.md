@@ -57,5 +57,6 @@ update store set num =${num} +1,version=${version}+1 where id='1' and version='1
 我们可以看到由于在数据库的版本号已经变成2,了，实际version=1会让B请求的更新数据不能成功。
 
 ----
-###### 转载至CSDN。
+
+###### 转载自CSDN。
 ###### 原文链接：https://blog.csdn.net/wueryan/article/details/85239700
