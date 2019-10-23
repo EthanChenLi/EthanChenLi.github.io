@@ -6,9 +6,7 @@ categories: default
 tags: mysql
 comments: 1
 ---
-### 乐观锁+版本号解决锁竞争问题
-
-  在高并发的场景下，经常会遇到这种情况：
+在高并发的场景下，经常会遇到这种情况：
 A请求过来，查询出来一条数据，进行update操作，与此同时B请求也在这个时候过来，对这条数据进行查询，并进行操作。此时就会出现B在A之后进行查询操作，但是实际B的数据却被A覆盖。
 
 这种情况并不少见，有时候会为了避免这种情况，我们会引入锁来解决这种问题，常见的比如使用ReetrantLock或者synchronized同步块等悲观锁的方式来实现，其实在这里，我们也可以尝试使用乐观锁+版本号的方式来进行处理。
@@ -41,11 +39,11 @@ update store set num =${num} +1 where id='1';
 
 A请求
 ```sql
-select num，version from store where id='1';
+select num,version from store where id='1';
 ```
 此时假设num=99，version=1,这时候B依然发起select请求：
 ```sql
-select num，version from store where id='1';
+select num,version from store where id='1';
 ```
 没有意外，B取到的version也是1，这时候A进行update写入，此时：
 ```sql
