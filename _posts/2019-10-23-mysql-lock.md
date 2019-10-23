@@ -2,7 +2,7 @@
 layout: post
 title:  "乐观锁+版本号解决锁竞争问题"
 date:   2019-10-23 11:23:00 +0800
-categories: default
+categories: mysql
 tags: mysql
 comments: 1
 ---
