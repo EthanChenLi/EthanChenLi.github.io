@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "CentOS 7 下搭建自己的 ngrok 内网穿透服务"
-date:   2019-10-23 09:56:00 +0800
+title:  "乐观锁+版本号解决锁竞争问题"
+date:   2019-10-23 11:23:00 +0800
 categories: default
 tags: mysql
 comments: 1
