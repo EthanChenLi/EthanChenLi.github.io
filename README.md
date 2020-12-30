@@ -1,68 +1,63 @@
-# MatJek
+[Hux Blog](https://huangxuan.me)
+================================
 
-A responsive [Material](https://material.io/) theme based on [Materialize.css](http://materializecss.com/) for jekyll sites.
+> I never expected this becomes popular.
 
-## Features
+![](http://huangxuan.me/img/blog-desktop.jpg)
 
-* Google Analytics
-* Disqus
-* [GitHub project page](https://shawnteoh.github.io/matjek/projects/)
-* [Tags](https://shawnteoh.github.io/matjek/tags/) and [Categories](https://shawnteoh.github.io/matjek/categories/)
-* Modular CSS and JS includes ([example](https://github.com/ShawnTeoh/matjek/blob/gh-pages/projects.md/))
-* [Fancy "About" page](https://shawnteoh.github.io/matjek/about)
 
-## Installation
+[User Manual 👉](_doc/Manual.md)
+--------------------------------------------------
 
-Clone or fork this repo and edit `_config.yml` as needed.
+### Getting Started
 
-## Configuration
+1. You will need [Ruby](https://www.ruby-lang.org/en/) and [Bundler](https://bundler.io/) to use [Jekyll](https://jekyllrb.com/). Following [Using Jekyll with Bundler](https://jekyllrb.com/tutorials/using-jekyll-with-bundler/) to fullfill the enviromental requirement.
 
-Most of the configurations can be found in `_config.yml`. The configurations listed below are specific to MatJek. If you are not using `google_tracking_id` or `disqus_shortname`, just remove them completely.
+2. Installed dependencies in the `Gemfile`:
 
-```yaml
-github_profile: "github_profile_url"
-user: "your_name" # Appears at sidebar
-user_email: "your_email" # Appears at sidebar, remove whole variable if unwanted
-contact_url: "google_form_link"
-google_tracking_id: "google_analytics_ID"
-disqus_shortname: "shortname_given_by_Disqus"
+```sh
+$ bundle install 
 ```
 
-Edit the images in `assets/res` to suit your liking, but try to stick to the original resolutions.
+3. Serve the website (`localhost:4000` by default):
 
-If you would like to enable comments in a post (disqus_shortname must be provided), add this line to the front matter of the post.
-
-```yaml
-comments: 1
+```sh
+$ bundle exec jekyll serve  # alternatively, npm start
 ```
 
-Add tags and categories to your posts in the front matter as well. Multiple tags/categories can be assigned but need to be separated by spaces.
+### Development (Build From Source)
 
-```yaml
-categories: default default2
-tags: test test2
-```
+To modify the theme, you will need [Grunt](https://gruntjs.com/). There are numbers of tasks you can find in the `Gruntfile.js`, includes minifing JavaScript, compiling `.less` to `.css`, adding banners to keep the Apache 2.0 license intact, watching for changes, etc. 
 
-## Contributing
+Yes, they were inherited and are extremely old-fashioned. There is no modularization and transpilation, etc.
 
-Bug reports and pull requests are welcomed on GitHub at https://github.com/shawnteoh/matjek. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Critical Jekyll-related code are located in `_include/` and `_layouts/`. Most of them are [Liquid](https://github.com/Shopify/liquid/wiki) templates.
 
-## Development
+This theme uses the default code syntax highlighter of jekyll, [Rouge](http://rouge.jneen.net/), which is compatible with Pygments theme so just pick any pygments theme css (e.g. from [here](http://jwarby.github.io/jekyll-pygments-themes/languages/javascript.html) and replace the content of `highlight.less`.
 
-To set up your environment to develop this theme, clone/fork the repo and run `bundle install`.
 
-To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000/matjek/`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
+### Interesting to know more? Checkout the [full user manual](_doc/Manual.md)!
 
-## License
 
-The theme is available as open source under the terms of the [GPL v3 License](https://www.gnu.org/licenses/gpl-3.0.en.html).
+Other Resources
+---------------
 
-## Libraries
-* [Materialize.css](http://materializecss.com/)
-* [GeoPattern](https://github.com/btmills/geopattern/)
-* [Animate.css](https://daneden.github.io/animate.css/)
-* [Morphtext](http://morphext.fyianlai.com/)
+Ports
+- [**Hexo**](https://github.com/Kaijun/hexo-theme-huxblog) by @kaijun
+- [**React-SSR**](https://github.com/LucasIcarus/huxpro.github.io/tree/ssr) by @LucasIcarus
 
-## References
-* https://github.com/DONGChuan/Yummy-Jekyll/
-* https://github.com/codinfox/codinfox-lanyon/
+[Starter/Boilerplate](https://github.com/huxpro/huxblog-boilerplate)
+- Out of date. Helps wanted for updating it on par with the main repo
+
+Translation
+- [🇨🇳 (somewhat outdated)](https://github.com/Huxpro/huxpro.github.io/blob/master/_doc/README.zh.md)
+
+
+License
+-------
+
+Apache License 2.0.
+Copyright (c) 2015-present Huxpro
+
+Hux Blog is derived from [Clean Blog Jekyll Theme (MIT License)](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/)
+Copyright (c) 2013-2016 Blackrock Digital LLC.
