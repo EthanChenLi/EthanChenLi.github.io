@@ -71,8 +71,8 @@ netease_comment: false
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+#ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+#ga_domain: huangxuan.me
 
 
 
@@ -103,7 +103,7 @@ page-mathjax: false
 # Friends
 friends: [
  {
-        title: "尹峰以为",
-        href: "http://ingf.github.io/"
+        title: "小哀的博客",
+        href: "https://blog.xiaoi.me/"
     }
 ]
