@@ -1,6 +1,6 @@
 # Site settings
-title: ethan Blog
-SEOTitle: ethan的博客 | ethan Blog
+title: Ethan Blog
+SEOTitle: Ethan的博客 | Ethan Blog
 header-img: img/post-bg-alitrip.jpg
 email: touch_789@163.com
 description: ""
@@ -78,7 +78,7 @@ netease_comment: false
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "三轮车师傅<br>四川·成都·天皇の故里"
+sidebar-about-description: "三轮车师傅<br>四川·成都"
 sidebar-avatar: /img/avatar_main.jpeg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
