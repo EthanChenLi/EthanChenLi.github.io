@@ -1,12 +1,12 @@
 # Site settings
 title: Ethan Blog
 SEOTitle: Ethan的博客 | Ethan Blog
-header-img: http://img.ituu.net/blog/post-bg-js-module.jpg
+header-img: blog/post-bg-js-module.jpg
 email: touch_789@163.com
 description: ""
 keyword: ""
 url: "http://ituu.net"              # your host, for absolute URL
-baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: "http://img.ituu.net"                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
 future: true
