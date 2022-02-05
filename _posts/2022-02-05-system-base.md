@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "分布式系统专题第二章-BASE理论"
+title:  "分布式系统专题第三章-BASE理论"
 date:   2022-02-05 16:30:00 +0800
 categories: 分布式系统
 tags: system
