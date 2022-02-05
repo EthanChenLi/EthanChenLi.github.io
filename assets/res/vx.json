@@ -1,0 +1,64 @@
+{
+    "created_time": "2022-02-05T06:23:16Z",
+    "files": [
+        {
+            "attachment_folder": "",
+            "created_time": "2022-02-05T06:23:16Z",
+            "id": "51",
+            "modified_time": "2022-02-05T06:23:16Z",
+            "name": "favicon.ico",
+            "signature": "109725173553108",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-02-05T06:23:16Z",
+            "id": "52",
+            "modified_time": "2022-02-05T06:23:16Z",
+            "name": "flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2",
+            "signature": "118731719972820",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-02-05T06:23:16Z",
+            "id": "53",
+            "modified_time": "2022-02-05T06:23:16Z",
+            "name": "logo.png",
+            "signature": "140283865864148",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-02-05T06:23:16Z",
+            "id": "74",
+            "modified_time": "2022-02-05T06:23:16Z",
+            "name": "qrcode.png",
+            "signature": "28902478976980",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2022-02-05T06:23:16Z",
+            "id": "75",
+            "modified_time": "2022-02-05T06:23:16Z",
+            "name": "user.png",
+            "signature": "104669997045716",
+            "tags": [
+            ]
+        }
+    ],
+    "folders": [
+        {
+            "name": "materialize"
+        }
+    ],
+    "id": "50",
+    "modified_time": "2022-02-05T06:23:16Z",
+    "signature": "29499479431124",
+    "version": 3
+}
